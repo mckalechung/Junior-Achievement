@@ -1,0 +1,52 @@
+.logo {
+    float: left;
+    padding: 14px;
+    border: none;
+   
+   background-color: #FFFFFF;
+  }
+  .logo{
+  font-family: 'Allan', cursive;
+    font-size: 18px;
+    transition-duration: 0.4s;
+  }
+  .logo:hover{
+    background-color: white;
+    color: #FF5733
+  }
+  
+  
+  
+  
+  
+  #navbar {
+    overflow: hidden;
+    background-color: #FFFFFF;
+  
+  }
+  .navright{
+    float: left;
+    display: block;
+    padding: 14px;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    
+  }
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .content {
+    padding-top: 14px;
+  }
+  main{
+    padding-top: 30px;
+    width: 100%;
+    overflow: auto;
+  }
+  

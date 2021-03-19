@@ -1,0 +1,186 @@
+.logo {
+    float: left;
+    padding: 14px;
+    border: none;
+   
+   background-color: #FFFFFF;
+  }
+  .logo{
+  font-family: 'Allan', cursive;
+    font-size: 18px;
+    transition-duration: 0.4s;
+  }
+  .logo:hover{
+    background-color: white;
+    color: #FF5733
+  }
+  
+  
+  
+  
+  
+  #navbar {
+    overflow: hidden;
+    background-color: #FFFFFF;
+  
+  }
+  .navright{
+    float: left;
+    display: block;
+    padding: 14px;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    
+  }
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .content {
+    padding-top: 14px;
+  }
+  main{
+    padding-top: 30px;
+    width: 100%;
+    overflow: auto;
+  }
+  
+  main h1{
+    font-size: 100px;
+    color: black;
+    text-align: center;
+    font-family: 'Allan', cursive;
+    background-color: #76CB9C;
+    padding: 20px;
+    margin: 0
+  }
+  
+  
+  .fade-in {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+  }
+  
+  
+  /*Back to normal now */
+  
+  
+  
+  main h2 {
+    font-size: 60px;
+    text-align: center;
+    white-space: nowrap;
+    font-family: 'Allan', cursive;
+  }
+  
+  main p{
+    background-color: #FF5733;
+    text-align: center;
+    margin: 0;
+  }
+  
+  
+  /* THIS IS THE MISSION STATEMENT */
+  .mission{
+    padding: 30px;
+    text-align: left;
+    float: right;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    color: black;
+    background-color: #DAF7A6;
+    padding-right: 20%;
+    padding-left: 20%;
+  
+    
+  }
+   .normalbutton{
+    background-color: transparent;
+    border: 4px solid #FFFFFF;
+    color: black;
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-family: 'Allan', cursive;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  
+    display:block; /* change this from inline-block */
+      width:20%; /* setting the width */
+      margin: auto; /* this will center  it */
+      position:relative;
+  }
+  .normalbutton:hover{
+    background-color: white;
+    color: black;
+  }
+  .whiteborder{
+    background-color: white;
+  }
+  .showcase1{
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 50px;
+    width: 50%;
+    
+  }
+  .description {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+  
