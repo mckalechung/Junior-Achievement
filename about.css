@@ -1,0 +1,115 @@
+.logo {
+  float: left;
+  padding: 14px;
+  position: absolute;
+  display: block;
+   font-size: 100x;
+   font-family: 'Montserrat', sans-serif;
+  transition-duration: 0.4s;
+ text-decoration: none;
+ height: 60px;
+}
+a:hover{
+  background-color: white;
+  color: #FF5733
+}
+
+
+
+
+
+#navbar {
+  overflow: hidden;
+  background-color: #FFFFFF !important;
+    z-index: 1;
+  
+
+}
+a{
+  float: right;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 30px;
+  padding-right: 30px;
+  font-family: 'Montserrat', sans-serif;
+  transition-duration: 0.4s;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 14px;
+}
+
+
+
+
+.aboutmain {
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.inside{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 100px;
+}
+
+
+
+.companydesc{
+  display:flex;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  font-size: 45px;
+  margin-left: 20%;
+  
+  padding-top: 20px
+
+}
+
+
+/* THIS IS THE MISSION STATEMENT */
+article{
+  padding-top: 60px;
+  text-align: left;
+  float: right;
+  font-family: 'Ovo', serif;
+  font-size: 20px;
+  color: black;
+  padding-right: 20%;
+  padding-left: 25px
+
+
+}
+
+
+
+.JAphoto {
+  margin-left: 10%;
+  margin-right: 10%;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  width: 80%;
+}
+
