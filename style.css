@@ -1,0 +1,222 @@
+.logo {
+  float: left;
+  padding: 14px;
+  position: absolute;
+  display: block;
+   font-size: 100x;
+   font-family: 'Montserrat', sans-serif;
+  transition-duration: 0.4s;
+ text-decoration: none;
+ height: 60px;
+}
+a:hover{
+  background-color: white;
+  color: #FF5733
+}
+
+
+
+
+
+#navbar {
+  overflow: hidden;
+  background-color: #FFFFFF !important;
+    z-index: 1;
+  
+
+}
+a{
+  float: right;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 30px;
+  padding-right: 30px;
+  font-family: 'Montserrat', sans-serif;
+  transition-duration: 0.4s;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+main{
+  padding-top: 30px;
+  width: 100%;
+  overflow: auto;
+  float:center;
+}
+
+main h1{
+  font-size: 100px;
+  color:#DAF7A6;
+  text-align: center;
+  font-family: 'Tinos', serif;
+  margin: 0;
+  position: absolute;
+  top:80%;
+  left:50%;
+  transform: translate(-50%, -50%)
+
+}
+
+
+.fade-in {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
+}
+
+
+/*Back to normal now */
+
+
+
+main h2 {
+  font-size: 60px;
+  text-align: center;
+  white-space: nowrap;
+  font-family: 'Tinos', serif;
+  color:#DAF7A6;
+ position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.firstimage {
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  position: relative;
+  height: 800px;
+}
+
+
+
+
+
+
+
+.title{
+  font-family: 'Montserrat', sans-serif;
+  float: center;
+  font-size: 45px;
+  text-align: center;
+
+
+}
+/* THIS IS THE MISSION STATEMENT */
+article{
+  padding: 20px;
+  text-align: left;
+  float: right;
+  font-family: 'Ovo', serif;
+  font-size: 20px;
+  color: black;
+  padding-right: 30%;
+  padding-left: 30%;
+
+
+}
+ .normalbutton{
+  background-color:#DAF7A6;
+  color: black;
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border:none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  display:block; /* change this from inline-block */
+    width:50%; /* setting the width */
+    margin: auto; /* this will center  it */
+    position:relative;
+}
+.normalbutton:hover{
+  background-color: #F1C378 ;
+  color: black;
+}
+
+.showcase1{
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: 50px;
+  width: 50%;
+  
+}
+
+
+
+p{
+  text-align: center;
+  float:center;
+}
