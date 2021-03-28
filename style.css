@@ -1,16 +1,38 @@
+
+.logopog {
+  display: flex;
+}
+
+.headerthing {
+  max-width: 80px;
+  width: auto;
+  padding-right: 25px;
+  padding-top:5px;
+  position: absolute;
+  padding-left: 5px;
+
+}
+
 .logo {
   float: left;
   padding: 14px;
   position: absolute;
   display: block;
-   font-size: 100x;
+   font-size: 2vw;
    font-family: 'Montserrat', sans-serif;
   transition-duration: 0.4s;
  text-decoration: none;
- height: 60px;
+ padding-top:25px;
+ color: black;
+ padding-left: 100px;
+
 }
-a:hover{
-  background-color: white;
+.logo:hover{
+  background-color: transparent;
+  color: #FF5733
+}
+.navright:hover{
+  background-color: transparent;
   color: #FF5733
 }
 
@@ -20,19 +42,25 @@ a:hover{
 
 #navbar {
   overflow: hidden;
-  background-color: #FFFFFF !important;
+  background-color: #FFFFFF;
     z-index: 1;
+    height: 80px;
+    
   
 
 }
-a{
+.navright{
   float: right;
   padding: 14px;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 1.3vw;
   padding-right: 30px;
+  padding-top: 30px;
   font-family: 'Montserrat', sans-serif;
   transition-duration: 0.4s;
+  color: black;
+  font-weight: bold;
+  
 }
 
 .content {
@@ -52,32 +80,144 @@ a{
 
 
 
+.first {
+width: 100%;
+position: relative;
+max-height: 800px;
+object-fit: cover;
+
+}
+
+
+.container{
+    position: relative;
+    text-align: center;
+ 
+}
 
 
 
 
+main h1{
+   font-size: 5.3vw;
+  color:#2C312E;
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  font-weight: bold;
+  top:45%;
+  left:17%;
+  
+
+  
+
+}
 
 
 
-main{
-  padding-top: 30px;
-  width: 100%;
-  overflow: auto;
+/*Back to normal now */
+
+
+
+main h2 {
+  font-size: 4.5vw;
+
+
+  font-family: 'Raleway', sans-serif;
+  color:#2C312E;
+ position: absolute;
+  top: 15%;
+  left: 17%;
+  right: 48%;
+  text-align: left;
+  font-weight: bold;
+ 
+}
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+  /* Set up proportionate scaling */
+
+.title{
+  font-family: 'Montserrat', sans-serif;
+  float: center;
+  font-size: 45px;
+  text-align: center;
+  
+
+
+}
+/* THIS IS THE MISSION STATEMENT */
+article{
+
+  text-align: center;
+  float: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.5vw;
+  color: black;
+  padding-right: 20%;
+  padding-left: 20%;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 300px) {
+  article{
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 601px) {
+  article {
+    font-size: 20px;
+  }
+}
+
+a{
+  text-decoration: none;
+}
+
+ .normalbutton{
+   
+  background-color:#DAF7A6;
+  color: black;
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border:none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  display:block; /* change this from inline-block */
+    width:200px; /* setting the width */
+    margin: auto; /* this will center  it */
+    position:relative;
+    text-decoration: none;
+}
+.normalbutton:hover{
+  background-color: #F1C378 ;
+  color: black;
+}
+
+.showcase1{
+  left:50%;
+  float: center;
+  padding-top: 50px;
+  width:80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 400px;
+  object-fit: cover;
+}
+
+
+
+p{
+  text-align: center;
   float:center;
 }
 
-main h1{
-  font-size: 100px;
-  color:#DAF7A6;
-  text-align: center;
-  font-family: 'Tinos', serif;
-  margin: 0;
-  position: absolute;
-  top:80%;
-  left:50%;
-  transform: translate(-50%, -50%)
-
-}
 
 
 .fade-in {
@@ -133,90 +273,77 @@ main h1{
 }
 
 
-/*Back to normal now */
 
 
 
-main h2 {
-  font-size: 60px;
+
+
+
+
+
+
+
+
+.footer{
+	display: inline-block;
+	vertical-align: top;
   text-align: center;
-  white-space: nowrap;
-  font-family: 'Tinos', serif;
-  color:#DAF7A6;
- position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
+.footer{
+	background-color: #282B2C;
+	box-sizing: border-box;
+	width: 100%;
 
-
-.firstimage {
-	
-  /* Set up proportionate scaling */
-  width: 100%;
-  position: relative;
-  height: 800px;
+	padding: 30px 50px 60px 40px;
+	margin-top: 80px;
 }
 
-
-
-
-
-
-
-.title{
-  font-family: 'Montserrat', sans-serif;
-  float: center;
-  font-size: 45px;
-  text-align: center;
-
-
+.footerline{
+  color: white;
 }
-/* THIS IS THE MISSION STATEMENT */
-article{
-  padding: 20px;
-  text-align: left;
-  float: right;
-  font-family: 'Ovo', serif;
+.redirect{
+  color: white;
   font-size: 20px;
-  color: black;
-  padding-right: 30%;
-  padding-left: 30%;
-
-
-}
- .normalbutton{
-  background-color:#DAF7A6;
-  color: black;
-  font-size: 15px;
-  padding: 10px 20px;
-  border-radius: 8px;
-  border:none;
-  transition-duration: 0.4s;
-  cursor: pointer;
   font-family: 'Montserrat', sans-serif;
-  display:block; /* change this from inline-block */
-    width:50%; /* setting the width */
-    margin: auto; /* this will center  it */
-    position:relative;
-}
-.normalbutton:hover{
-  background-color: #F1C378 ;
-  color: black;
+ transition-duration: 0.4s;
+ text-decoration: none;
+ padding: 10px;
+
 }
 
-.showcase1{
-  margin-left: 25%;
-  margin-right: 25%;
-  padding-top: 50px;
-  width: 50%;
-  
+.redirect:hover{
+  background-color: transparent;
+  color: #DAF7A6;
+}
+.email{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
 }
 
 
 
-p{
-  text-align: center;
-  float:center;
+
+.instagram{
+  padding: 10px;
+  display: inline-block;
+  min-height: 10px;
+  max-width: 30px;
+  width: auto;
+  color: white;
+  filter: invert(50%);
+}
+.shopify{
+  padding: 10px;
+  display: inline-block;
+  min-height: 10px;
+  max-width: 30px;
+  width: auto;
+  color: white;
+  filter: invert(85%);
 }
