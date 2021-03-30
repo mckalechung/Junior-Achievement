@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
   <link href = "contact.css" type = "text/css" rel="stylesheet">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
   <script src = "script.js"></script>
+  <script src = "contact.js"> </script>
+  
 
   
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Tinos:ital@1&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -14,14 +17,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Montserrat:wght@100&display=swap" rel="stylesheet">
 
-<head >
+<head>
     <nav id = "navbar">
 
 
-      <a href = "index.html" class = "logo"><strong>COMPANY NAME</strong></a>
-        <a class = "navright" href="about.html">About</a>
-        <a class = "navright" href="#top">Contact</a>  
-        <a class = "navright" href="packages.html>">Packages</a> 
+      <div class = "logopog" >
+        <img src = "https://i.imgur.com/BOpDXd5.png" class = "headerthing">
+        <a href = "index.html" class = "logo"><strong>HUELINX</strong></a>
+        </div>
+      <a class = "navright" href="https://jasath8.myshopify.com/" target ="_blank">Shop</a> 
+        <a class = "navright" href="contact.html">Contact</a> 
+         <a class = "navright" href="about.html">About</a>
+        
+        
       </nav>
       <title>Company Name</title>
 </head>
@@ -29,27 +37,89 @@
   <main>
     <section>
       <header>
-        <h1> 
-          Contact us! </h1> </header>
-        <p> Do you have questions about our service or want to purchase one of our packages? Please send a message in the form below!
-              <div class="container">
-        <form action="action_page.php">
+        <div class = "container">
+          <img src ="https://i.imgur.com/ZzfYRUd.jpg"
+         border="0"class="aboutmain">
+      <h1 class = "inside"> Contact Us! </h1>
+         </header>
+         </section>
+        
+        
+        <section>
+        
+        <p> Do you have questions about our service or want to purchase one of our packages? Please send a message in the form below!</p>
+ 
 
-        <label for="fname"></label>
-        <input type="text" id="fname" name="name" placeholder="Your name...">
 
 
-        <label for="email"></label>
-        <input type="text" id="email" name="email" placeholder="Your email...">
+<script src = "contact.js"></script>
+  <div class = "contain">
+    <form action="https://formspree.io/f/xeqvjwkp" method="post">
+        <label>
+          <input type = "text" name = "name" class="name" placeholder="Your Name">
+        </label>
+        <label>
+          <input name = "email" type = "text" class="email" placeholder="Your Email">
+        </label>
+        <label>
+          <input name = "subject" type = "text" class="subject" placeholder="Subject">
+        </label>
+        <label> 
+        <textarea name = "message" class="message" placeholder="Your Message" class = "message"></textarea>
+        </label> 
 
-        <label for="subject"></label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <div class = "status">
+      </div>
 
-        <input type="submit" value="Submit">
+        <button type = "submit" class = "submit">Send Message</button>
+    </form>
+  </div>
+</section>
 
-        </form>
-        </div>
-    </section>
-  </main>
+</main>
+
+
+
+    
+    
+ 
+  	<footer class="footer">
+
+			
+      
+      <p class = "footerline">_____________________________________________</p>
+      <div>
+				
+
+				
+					<a href="#top" class = "redirect"><strong>Home</strong></a>
+					
+					<a href="https://jasath8.myshopify.com/" class = "redirect"><strong>Shop</strong></a>
+					
+					<a href="about.html" class = "redirect"><strong>About</strong></a>
+					
+					<a href="contact.html" class = "redirect" ><strong>Contact</strong></a>
+
+          <a href="https://jasab.ca/"  target ="_blank" class = "redirect" ><strong>JA</strong></a>
+				
+<!--
+				<p class="copyright">© 2019 Eduonix Learning Solutions Pvt. Ltd.</p> -->
+			</div>
+
+			<div class="email">
+				
+					<a href="mailto: huelinx@gmail.com" class="email"> huelinx@gmail.com</a>
+				
+			</div>
+			<div class="footer-right">
+				<div class="footer-icons">
+					<a href="https://www.hellofresh.ca/"><img src="https://i.ibb.co/bNP5RWW/512x512.png" alt="512x512" border="0" class = "instagram"></a>
+					<a href="https://jasath8.myshopify.com/" target ="_blank"><img src="https://i.ibb.co/3r0VNfV/Shopify-logo.png" alt="Shopify-logo" border="0" class = "shopify"></a>
+					<a href="#"><i ></i></a>
+			
+					<a href="#"><i "></i></a>
+				</div>
+			</div>
+		</footer>
 </body>
 </html>

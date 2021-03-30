@@ -1,109 +1,245 @@
+.logopog {
+  display: flex;
+}
+
+.headerthing {
+  max-width: 80px;
+  width: auto;
+  padding-right: 25px;
+  padding-top:5px;
+  position: absolute;
+  padding-left: 5px;
+
+}
+
 .logo {
-    float: left;
-    padding: 14px;
-    position: absolute;
-    display: block;
-     font-size: 100x;
-     font-family: 'Montserrat', sans-serif;
-    transition-duration: 0.4s;
-   text-decoration: none;
-   height: 60px;
-  }
-  a:hover{
-    background-color: white;
-    color: #FF5733
-  }
-  
-  
-  
-  
-  
-  #navbar {
-    overflow: hidden;
-    background-color: #FFFFFF !important;
-      z-index: 1;
+  float: left;
+  padding: 14px;
+  position: absolute;
+  display: block;
+   font-size: 2vw;
+   font-family: 'Montserrat', sans-serif;
+  transition-duration: 0.4s;
+ text-decoration: none;
+ padding-top:25px;
+ color: black;
+ padding-left: 100px;
+
+}
+.logo:hover{
+  background-color: transparent;
+  color: #FF5733
+}
+.navright:hover{
+  background-color: transparent;
+  color: #FF5733
+}
+
+
+
+
+
+#navbar {
+  overflow: hidden;
+  background-color: #FFFFFF !important;
+    z-index: 1;
+    height: 80px;
     
   
-  }
-  a{
-    float: right;
-    padding: 14px;
-    text-decoration: none;
-    font-size: 30px;
-    padding-right: 30px;
-    font-family: 'Montserrat', sans-serif;
-    transition-duration: 0.4s;
-  }
+
+}
+.navright{
+  float: right;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 1.3vw;
+  padding-right: 30px;
+  padding-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  transition-duration: 0.4s;
+  color: black;
+  font-weight: bold;
   
-  .content {
-    padding: 16px;
-  }
+}
+
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 14px;
+}
+
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+
+
+
+.container{
+    position: relative;
+    text-align: center;
+ 
+}
+.aboutmain {
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  max-height: 500px;
+  object-fit:cover;
+position: relative;
+}
+
+.inside{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  .sticky + .content {
-    padding-top: 14px;
-  }
-  
-  
-  main{
-    float:center;
-    text-align:center;
-  }
-  
-  h1{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
-    text-align: center
-  }
-  p{
-    font-family: 'Ovo', serif;
-    font-size: 20px;
-    text-align:center;
-    padding-bottom: 40px;
-    margin-right: 25%;
-    margin-left: 25%;
-  }
-  label{
-     font-family: 'Ovo', serif;
-  }
-  /* Style inputs with type="text", select elements and textareas */
-  input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical
-    font-family: 'Ovo', serif; /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-  
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
-    background-color: #DAF7A6;
-    color: black;
-    padding: 8px 20px;
-    border: none;
-    font-family: 'Montserrat', sans-serif;
-    border-radius: 4px;
-    cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 80px;
+  color: #2C312E;
+
+}
+
+p{
+
+  text-align: center;
+  float: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1vw;
+  color: black;
+  padding-right: 20%;
+  padding-left: 20%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+.contain {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+
+
+.message{
+  height: 200px;
+}
+
+
+
+
+
+
+
+ .normalbutton{
    
-  }
+  background-color:#DAF7A6;
+  color: black;
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border:none;
+  transition-duration: 0.4s;
+  cursor: pointer;
   
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
-    background-color: #F1C378;
-  }
-  
-  /* Add a background color and some padding around the form */
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding-right: 20%;
-    padding-left: 20%;
-  }
+  font-family: 'Raleway', sans-serif;
+  display:block; /* change this from inline-block */
+    width:200px; /* setting the width */
+    margin: auto; /* this will center  it */
+    position:relative;
+    text-decoration: none;
+}
+.normalbutton:hover{
+  background-color: #F1C378 ;
+  color: black;
+}
+
+.footer{
+	display: inline-block;
+	vertical-align: top;
+  text-align: center;
+}
+
+.footer{
+	background-color: #282B2C;
+	box-sizing: border-box;
+	width: 100%;
+
+	padding: 30px 50px 60px 40px;
+	margin-top: 80px;
+}
+
+.footerline{
+  color: white;
+}
+.redirect{
+  color: white;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+ transition-duration: 0.4s;
+ text-decoration: none;
+ padding: 10px;
+
+}
+
+.redirect:hover{
+  background-color: transparent;
+  color: #DAF7A6;
+}
+
+
+
+
+.instagram{
+  padding: 10px;
+  display: inline-block;
+  min-height: 10px;
+  max-width: 30px;
+  width: auto;
+  color: white;
+  filter: invert(50%);
+}
+.shopify{
+  padding: 10px;
+  display: inline-block;
+  min-height: 10px;
+  max-width: 30px;
+  width: auto;
+  color: white;
+  filter: invert(85%);
+}
