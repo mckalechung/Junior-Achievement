@@ -26,6 +26,7 @@
  color: black;
  padding-left: 100px;
 
+
 }
 .logo:hover{
   background-color: transparent;
@@ -85,6 +86,7 @@ width: 100%;
 position: relative;
 max-height: 800px;
 object-fit: cover;
+opacity: 0.8;
 
 }
 
@@ -96,21 +98,18 @@ object-fit: cover;
 }
 
 
-
-
-main h1{
-   font-size: 5.3vw;
-  color:#2C312E;
-  font-family: 'Raleway', sans-serif;
-  position: absolute;
-  font-weight: bold;
-  top:45%;
-  left:17%;
-  
-
-  
-
+.showcaselogo {
+ 
+  left:50%;
+  float: center;
+  padding-top: 50px;
+  width:60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: auto;
+  object-fit: cover;
 }
+
 
 
 
@@ -125,9 +124,9 @@ main h2 {
   font-family: 'Raleway', sans-serif;
   color:#2C312E;
  position: absolute;
-  top: 15%;
-  left: 17%;
-  right: 48%;
+  top: 18%;
+  left: 13%;
+  right: 51%;
   text-align: left;
   font-weight: bold;
  
@@ -162,6 +161,12 @@ article{
   padding-left: 20%;
   padding-bottom: 20px;
 }
+
+
+
+
+
+
 
 @media screen and (max-width: 300px) {
   article{
@@ -221,11 +226,11 @@ p{
 
 
 .fade-in {
-  animation: fadeIn ease 2s;
-  -webkit-animation: fadeIn ease 2s;
-  -moz-animation: fadeIn ease 2s;
-  -o-animation: fadeIn ease 2s;
-  -ms-animation: fadeIn ease 2s;
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
 }
 @keyframes fadeIn {
   0% {
@@ -271,6 +276,11 @@ p{
     opacity:1;
 }
 }
+
+
+
+
+
 
 
 
