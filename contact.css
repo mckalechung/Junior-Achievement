@@ -108,7 +108,7 @@ position: relative;
   
   font-family: 'Raleway', sans-serif;
   text-align: center;
-  font-size: 80px;
+  font-size: 6vw;
   color: #2C312E;
 
 }
@@ -118,12 +118,23 @@ p{
   text-align: center;
   float: center;
   font-family: 'Raleway', sans-serif;
-  font-size: 1vw;
+  font-size: 2.5vw;
   color: black;
   padding-right: 20%;
   padding-left: 20%;
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+@media screen and (max-width: 300px) {
+  p{
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 601px) {
+  p {
+    font-size: 20px;
+  }
 }
 
 
@@ -144,6 +155,7 @@ input[type=text], select, textarea {
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  font-family: 'Montserrat', sans-serif;
 }
 
 .contain {
@@ -154,10 +166,17 @@ input[type=text], select, textarea {
   margin-right: 20%;
 }
 
-
+input {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-weight: bold;
+}
 
 .message{
   height: 200px;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-weight: bold;
 }
 
 
@@ -180,7 +199,7 @@ input[type=text], select, textarea {
   font-family: 'Raleway', sans-serif;
   display:block; /* change this from inline-block */
     width:200px; /* setting the width */
-    margin: auto; /* this will center  it */
+  
     position:relative;
     text-decoration: none;
 }
@@ -188,6 +207,12 @@ input[type=text], select, textarea {
   background-color: #F1C378 ;
   color: black;
 }
+
+
+
+
+
+
 
 .footer{
 	display: inline-block;

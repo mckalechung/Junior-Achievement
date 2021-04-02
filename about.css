@@ -109,7 +109,7 @@ position: relative;
   
   font-family: 'Raleway', sans-serif;
   text-align: center;
-  font-size: 100px;
+  font-size: 6vw;
   color: #2C312E;
 
 }
@@ -150,13 +150,26 @@ article{
   text-align: left;
   float: right;
   font-family: 'Raleway', sans-serif;
-  font-size: 1.2vw;
+  font-size: 2.5vw;
   color: black;
   padding-right: 20%;
-  padding-left: 40px
+  padding-left: 40px;
 
 
 }
+
+
+@media screen and (max-width: 300px) {
+  article{
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 601px) {
+  article {
+    font-size: 20px;
+  }
+}
+
 
 
 
