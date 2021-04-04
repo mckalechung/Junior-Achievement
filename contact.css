@@ -113,7 +113,7 @@ position: relative;
 
 }
 
-p{
+article{
 
   text-align: center;
   float: center;
@@ -127,14 +127,19 @@ p{
 }
 
 @media screen and (max-width: 300px) {
-  p{
+  article{
     font-size: 15px;
   }
 }
 @media screen and (min-width: 601px) {
-  p {
+  article{
     font-size: 20px;
   }
+}
+
+p{
+  text-align: center;
+  float:center;
 }
 
 
@@ -214,6 +219,8 @@ input {
 
 
 
+
+
 .footer{
 	display: inline-block;
 	vertical-align: top;
@@ -245,6 +252,15 @@ input {
 .redirect:hover{
   background-color: transparent;
   color: #DAF7A6;
+}
+.email{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
 }
 
 
