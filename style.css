@@ -64,6 +64,13 @@
   
 }
 
+@media screen and (max-width: 300px) {
+  article{
+    font-size: 20px;
+  }
+}
+
+
 .content {
   padding: 16px;
 }
@@ -276,6 +283,58 @@ p{
     opacity:1;
 }
 }
+
+
+
+
+
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  width: 100%;
+   padding-top: 50px;
+
+
+}
+
+/* Create four equal columns that sits next to each other */
+.gallery {
+  -ms-flex: 33.333%; /* IE10 */
+  flex: 33.333%;
+  max-width: 33.333%;
+ 
+}
+
+.gallery img {
+  
+  vertical-align: middle;
+  width: 100%;
+
+}
+
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .gallery {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
 
 
 
