@@ -38,7 +38,26 @@
 
 
 
-
+@media screen and (max-width: 300px) {
+  .logo{
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .logo {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .navright{
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .navright {
+    font-size: 25px;
+  }
+}
 
 #navbar {
   overflow: hidden;
@@ -255,4 +274,17 @@ article{
   width: auto;
   color: white;
   filter: invert(85%);
+}
+
+.team {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  
+  font-size: 3vw;
+
+}
+.teampic{
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
 }
